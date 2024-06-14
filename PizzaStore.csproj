@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Pizzas/" />
+    <Folder Include="Pizzas/Base/" />
+    <Folder Include="Pizzas/DNPizza/" />
+    <Folder Include="Pizzas/HCMPizza/" />
+    <Folder Include="Pizzas/HuePizza/" />
+    <Folder Include="Stores/Base/" />
+  </ItemGroup>
+
 </Project>

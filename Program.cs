@@ -1,13 +1,18 @@
 ﻿namespace PizzaStore;
 
+using PizzaStore.Stores;
+
 class Program
 {
     static void Main(string[] args)
     {
-        var pizzaStore = new PizzaStore();
-        pizzaStore.OrderPizza("cheese");
-        pizzaStore.OrderPizza("greek");
-        pizzaStore.OrderPizza("pepperoni");
-        pizzaStore.OrderPizza("ahihi");
+        var huePizzaStore = new HUEPizzaStore();
+        huePizzaStore.OrderPizza("cheese");
+
+        var dnPizzaStore = new DNPizzaStore();
+        dnPizzaStore.OrderPizza("cheese");
+
+        var hcmPizzaStore = new HCMPizzaStore();
+        hcmPizzaStore.OrderPizza("cheese");
     }
 }

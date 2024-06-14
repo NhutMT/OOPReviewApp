@@ -1,4 +1,4 @@
-﻿namespace PizzaStore;
+﻿namespace PizzaStore.Pizzas.Base;
 
 public abstract class Pizza
 {
